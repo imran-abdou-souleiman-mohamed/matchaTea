@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0%;
+  padding: 0%;
+  background: #56ab2f;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.wrapper {
+  margin-top: 10%;
+}
+
+.wrapper h1 {
+  font-family: "Allura", cursive;
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.team {
+  display: flex;
+  text-align: center;
+  width: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.team .team_member {
+  background: #fff;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  position: relative;
+  color: #8e8b8b;
+}
+
+.team .team_member h3 {
+  color: #81c644;
+  font-size: 26px;
+  margin-top: 50px 
+}
+
+.team .team_member p.role {
+  color: #ccc;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 12px 0;
+}
+
+.team .team_member .team_img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  padding: 10px;
+}
+
+.team .team_member .team_img img {
+  width: 100px;
+  height: 100px;
+}
+
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  
+}
+
+.container .title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 22px;
+  letter-spacing: 1.5px;
+  padding: 50px 0px;
+}
+
+.container .title h1::after {
+  content: "";
+  height: 6px;
+  width: 180px;
+  background-color: #222;
+  border-radius: 6px;
+  position: relative;
+  display: block;
+  margin: auto;
+}
+
+.content {
+  width: 85%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
+  margin: 30px auto;
+}
+
+.content .article {
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.2);
+  padding: 25px 25px;
+  background-color: #a8e063;
+}
+
+.content .article h2 {
+  font-size: 22px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+.content .article p {
+  margin-top: 30px;
+  font-size: 19px;
+  line-height: 1.5;
+}
+
+.content .article a {
+  font-size: 22px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px 35px;
+  border-radius: 25px;
+  border: 1px solid black;
+  color: whitesmoke;
+  letter-spacing: 1.5px;
+  margin-top: 20px;
+  background-color: #222;
+}
+
+.content .article a:hover{
+  background-color: #fff;
+  color: #cc0000;
+  transition: 0.2s ease;
+}
+
+.image_section {
+  width: 100%;
+  margin: auto;
+}
+
+.image_section img {
+  width: 100%;
+  height: auto;
+}
+
+/* Your existing CSS styles */
+
+/* Additional style for hiding the additional text */
+.additional-text {
+  display: none;
+}
+
+/* Your existing CSS styles */
+
+/* Additional style for hiding the additional text */
+.additional-text {
+  display: none;
+}
+
+/* Styling for the label (button) */
+.button {
+  font-size: 22px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px 35px;
+  border-radius: 25px;
+  border: 1px solid black;
+  color: whitesmoke;
+  letter-spacing: 1.5px;
+  margin-top: 20px;
+  background-color: #222;
+}
+
+/* Hover effect for the label (button) */
+.button:hover {
+  background-color: #fff;
+  color: #cc0000;
+  transition: 0.2s ease;
+}
+
+
+/* When the checkbox is checked, show the additional text */
+.read-more-checkbox:checked ~ #additionalText {
+  display: block;
+}
+
+/* Hide the checkbox */
+.read-more-checkbox {
+  display: none;
+}
+
+.read-more-checkbox:checked ~ #additionalText2 {
+  display: block;
+}
+
+.read-more-checkbox:checked ~ #additionalText3  {
+  display: block;
+}
+
+.read-more-checkbox:checked ~ #additionalText4  {
+  display: block;
+}
+
+
