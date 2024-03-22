@@ -117,8 +117,7 @@ h1, .title {
     position: fixed;
     display: flex;
     align-items: center;
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(224,254,214,1) 75%);
+    background: #80B539;
     width: calc(100% - 59px); /* Réduire la largeur totale du viewport de 59px */
     z-index: 3;
     margin-left: 80px; /* Décaler vers la droite de 59px */
@@ -163,7 +162,7 @@ h1, .title {
   }
   
   nav ul li a:hover {
-      background-color: #5e9813;
+     background-color: #283c86;
   }
   
   /* Styles pour le contenu principal */
@@ -181,7 +180,7 @@ h1, .title {
       font-family: "The Girl Next Door", cursive;
       margin: 0;
       padding: 0;
-      background-color: #d3f59d; /* Couleur de fond verte matcha */
+      background-color: #11998e;
   }
   
   /* Style pour centrer le titre */
@@ -221,8 +220,8 @@ h1, .title {
       left: 50%;
       transform: translate(-50%, -50%);
       text-align: center;
-      color: #188718; /* Vert foncé */
-      background-color: rgba(22, 169, 42, 0.5); /* Fond vert mi-transparent */
+      color: #80B539; /* Vert foncé */
+      background-color: #67B26F;
       padding: 20px;
       border-radius: 10px;
       font-size: 28px;
@@ -290,7 +289,8 @@ h1, .title {
   }
   
   .product:hover {
-      background-color: #2c8a23ce; /* Couleur de fond au survol */
+      background-color: #4ca2cd; /* Couleur de fond au survol */
+      border-radius: 10%;
   }
   
   .product img {
