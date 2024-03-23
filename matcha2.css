@@ -9,7 +9,7 @@
 .body_contact {
     margin: 0;
     padding: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
     box-sizing: border-box;
     background-color: #4c0202da;
     background-image: url('image/contactimage.png');
@@ -99,7 +99,6 @@ h3 {
 }
 
 
-
 /* Styles pour le titre */
 h1, .title {
     font-family: "The Girl Next Door", cursive;
@@ -110,6 +109,7 @@ h1, .title {
     font-size: xx-large;  
     color: black;
     width: 150%; /* Ajustement de la largeur */
+    
   }
   
   /* Styles pour le banner */
@@ -126,6 +126,7 @@ h1, .title {
     width: 80px; /* Taille du logo en pixels */
     height:   45px; /* Hauteur automatique pour conserver les proportions */
     margin-right: 10px; /* Marge à droite pour séparer le logo du titre */
+    padding-left: 20px;
   }
   
   
@@ -304,12 +305,12 @@ h1, .title {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr; /* Créer trois colonnes de largeur égale */
       grid-gap: 10px; /* Ajouter un espace entre les éléments */
-      background-color: #C0E288;
+      background-color: #085b1f;
   }
   
   .footer-item {
       text-align: center; /* Centrer le texte à l'intérieur des éléments */
-      background-color: #C0E288;
+      background-color: #085b1f;
       text-decoration: none;
       list-style-type: none;
   }
@@ -331,7 +332,6 @@ h1, .title {
   
   .footer-item p {
       color: black;
-      font-size: large;
   }
 
 .main {
