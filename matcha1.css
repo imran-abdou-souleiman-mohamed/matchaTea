@@ -76,7 +76,7 @@ body {
   height: 100px;
 }
 
-
+/* css for notre histoire.html*/
 .container {
   width: 100%;
   min-height: 100vh;
@@ -160,14 +160,14 @@ body {
   height: auto;
 }
 
-/* Your existing CSS styles */
+
 
 /* Additional style for hiding the additional text */
 .additional-text {
   display: none;
 }
 
-/* Your existing CSS styles */
+
 
 /* Additional style for hiding the additional text */
 .additional-text {
@@ -218,4 +218,98 @@ body {
   display: block;
 }
 
+
+/* css for vente.html*/
+
+#vente {
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h3 {
+  text-align: center;
+  font-size: 30px;
+  margin: 0;
+  padding-top: 10px;
+}
+
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.contenu {
+  width: 20%;
+  margin: 15px;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  border-radius: 20px;
+  cursor: pointer;
+  padding-top: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0,0.22);
+  transition: .4s;
+}
+
+.contenu:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transform: translate(0px -18px);
+}
+
+#myimage {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+#pee {
+  text-align: center;
+  color: whitesmoke;
+  padding-top: 0 8px;
+}
+
+h6 {
+  font-size: 26px;
+  text-align: center;
+  color: black;
+}
+
+#bouton {
+  text-align: center;
+  font-size: 24px;
+  color: whitesmoke;
+  width: 100%;
+  padding: 15px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  margin-top: 5px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.buy-1{
+  background: linear-gradient(to right, #56ab2f, #a8e063);
+}
+
+.buy-2 {
+background: linear-gradient(to right, #78ffd6, #a8ff78); 
+}
+
+.buy-3 {
+  background: linear-gradient(to right, #11998e, #38ef7d);
+}
+
+.buy-4 {
+  background: linear-gradient(to right, #00f260, #0575e6);
+}
 
