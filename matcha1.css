@@ -255,12 +255,27 @@ h3 {
   cursor: pointer;
   padding-top: 10px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0,0.22);
-  transition: .4s;
+  transition: 0.5s;
 }
 
 .contenu:hover {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   transform: translate(0px -18px);
+  height: 500px;
+}
+
+.contenu #myimage {
+  top: 20px;
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.contenu:hover #myimage {
+  top: -100px;
+    scale: 0.75;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 2);
 }
 
 #myimage {
