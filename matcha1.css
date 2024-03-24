@@ -220,7 +220,6 @@ body {
 
 
 /* css for vente.html*/
-
 #vente {
   margin: 0;
   padding: 0;
@@ -231,7 +230,7 @@ h3 {
   text-align: center;
   font-size: 30px;
   margin: 0;
-  padding-top: 10px;
+  padding-top: 5px;
 }
 
 
@@ -240,7 +239,7 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
   margin: 50px 0;
 }
@@ -328,3 +327,85 @@ background: linear-gradient(to right, #78ffd6, #a8ff78);
   background: linear-gradient(to right, #00f260, #0575e6);
 }
 
+
+/* header navbar */
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100px; /* Largeur de la barre de navigation */
+  height: 100%; /* Hauteur de la barre de navigation */
+  background-color: #80B539;
+  padding-top: 20px; /* Espace en haut de la barre de navigation */
+}
+
+nav ul {
+  list-style-type: none; /* Supprime les puces de la liste */
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-bottom: 20px; /* Espacement entre les éléments de la liste */
+  writing-mode: vertical-lr; /* Texte vertical */
+  transform: rotate(180deg); /* Inversion du texte */
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav ul li a:hover {
+ background-color: #283c86;
+}
+
+/* footer */
+
+
+footer {
+  margin-left: 8%;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Shorthand for creating three equal-width columns */
+  grid-gap: 7px;
+  background-color: #C0E288;
+}
+
+.footer-item {
+  text-align: center;
+  text-decoration: underline;
+  background-color: #C0E288;
+}
+
+.footer-item ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex; 
+  justify-content: space-between;
+}
+
+.footer-item ul li {
+  flex-grow: 1;
+}
+
+.footer-item ul li a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-family: "The Girl Next Door", cursive;
+  padding: 60px;
+  text-align: center;
+}
+
+.footer-item ul li a:hover {
+  background-color: #80B539;
+}
+
+.footer-item p {
+  color: black;
+}
