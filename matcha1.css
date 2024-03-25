@@ -364,6 +364,22 @@ nav ul li a:hover {
  background-color: #283c86;
 }
 
+.valo {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to right, #56ab2f, #a8e063);
+  width: calc(100% - 59px); 
+  z-index: 3;
+  margin-left: 59px;
+}
+.logo {
+  width: 80px;  
+  height:   45px; 
+  margin-right: 10px;
+  padding-left: 20px;
+}
+
 /* footer */
 
 
@@ -409,3 +425,6 @@ footer {
 .footer-item p {
   color: black;
 }
+
+/* header + logo */
+
